@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>什么是函数 - HsOjo&#039;s Study Blog</title><meta description="定义有数集$D ⊆ R$，如果存在某种对应法则$f$，可以使$D$中任意一个数$x$，都有唯一确定的数$y$ 与之对应（即结果唯一），则由$f$确定的$x$与$y$的对应关系可以记为： $$y &amp;#x3D; f(x)$$"><meta property="og:type" content="blog"><meta property="og:title" content="什么是函数"><meta property="og:url" content="http://study.blog.hsojo.com/2020/07/27/WhatIsFunction/"><meta property="og:site_name" content="HsOjo&#039;s Study Blog"><meta property="og:description" content="定义有数集$D ⊆ R$，如果存在某种对应法则$f$，可以使$D$中任意一个数$x$，都有唯一确定的数$y$ 与之对应（即结果唯一），则由$f$确定的$x$与$y$的对应关系可以记为： $$y &amp;#x3D; f(x)$$"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="http://study.blog.hsojo.com/assets/FunctionCommonImage/1x.jpg"><meta property="og:image" content="http://study.blog.hsojo.com/assets/WhatIsFunction/inverse.jpg"><meta property="article:published_time" content="2020-07-26T23:48:57.000Z"><meta property="article:modified_time" content="2020-07-29T16:00:20.472Z"><meta property="article:author" content="HsOjo"><meta property="article:tag" content="函数"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/assets/FunctionCommonImage/1x.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://study.blog.hsojo.com/2020/07/27/WhatIsFunction/"},"headline":"HsOjo's Study Blog","image":["http://study.blog.hsojo.com/assets/FunctionCommonImage/1x.jpg","http://study.blog.hsojo.com/assets/WhatIsFunction/inverse.jpg"],"datePublished":"2020-07-26T23:48:57.000Z","dateModified":"2020-07-29T16:00:20.472Z","author":{"@type":"Person","name":"HsOjo"},"description":"定义有数集$D ⊆ R$，如果存在某种对应法则$f$，可以使$D$中任意一个数$x$，都有唯一确定的数$y$ 与之对应（即结果唯一），则由$f$确定的$x$与$y$的对应关系可以记为： $$y &#x3D; f(x)$$"}</script><link rel="canonical" href="http://study.blog.hsojo.com/2020/07/27/WhatIsFunction/"><link rel="icon" href="/img/favicon.png"><link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/5.12.0-1/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/favicon.png" alt="HsOjo&#039;s Study Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about_study.html">About</a><a class="navbar-item" href="http://blog.hsojo.com">Tech Blog</a></div><div class="navbar-end"><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-07-26T23:48:57.000Z" title="2020-07-26T23:48:57.000Z">2020-07-27</time><span class="level-item"><a class="link-muted" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></span><span class="level-item">4 分钟 读完 (大约 620 个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">什么是函数</h1><div class="content"><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>有<a href="/2020/07/27/WhatIsSet">数集</a>$D ⊆ R$，如果存在某种<strong>对应法则</strong>$f$，可以使$D$中<strong>任意一个数</strong>$x$，都有<strong>唯一确定的数</strong>$y$ 与之对应（即结果唯一），则由$f$确定的$x$与$y$的对应关系可以记为：</p>
+<p>$$y = f(x)$$</p>
+<a id="more"></a>
+
+<ul>
+<li>$f$: 函数</li>
+<li>$x$: 自变量（即函数参数值）</li>
+<li>$y$: 因变量（即函数返回值，别名：函数值）</li>
+<li>$D$: 定义域（x的取值范围，$x ∈ D$）</li>
+</ul>
+<p>如果$x_0 ∈ D$，则函数$f(x)$在$x_0$处<strong>有定义</strong>，在$x_0$处的函数（返回）值可以表示为：</p>
+<ul>
+<li>$y|_{x = x_0}$</li>
+<li>$f(x_0)$</li>
+</ul>
+<blockquote>
+<p>没有声明定义域的函数，定义域默认为<strong>R</strong></p>
+</blockquote>
+<p>当$x$遍历完$D$，其中所有的$y$组成的数集便是<strong>值域</strong>，表示为：</p>
+<p>$R_f = {y|y = f(x), x ∈ D}$</p>
+<h2 id="函数表达方式"><a href="#函数表达方式" class="headerlink" title="函数表达方式"></a>函数表达方式</h2><ul>
+<li><p>解析法/公式法</p>
+<ul>
+<li>如：$y = x^2$</li>
+</ul>
+</li>
+<li><p>图形法</p>
+<ul>
+<li>如：使用<strong>直角坐标系</strong>表示的函数图像。</li>
+</ul>
+</li>
+</ul>
+<p><img src="/assets/FunctionCommonImage/1x.jpg" alt="$y = \frac 1 x$"></p>
+<ul>
+<li>表格法<ul>
+<li>$y = x^2$的表格表示如下所示。</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>值</th>
+<th>…</th>
+<th>…</th>
+<th>…</th>
+<th>…</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>x</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>…</td>
+</tr>
+<tr>
+<td>y</td>
+<td>1</td>
+<td>4</td>
+<td>9</td>
+<td>16</td>
+<td>…</td>
+</tr>
+</tbody></table>
+<h3 id="定义域的表达"><a href="#定义域的表达" class="headerlink" title="定义域的表达"></a>定义域的表达</h3><ul>
+<li>参考<a href="/2020/07/27/WhatIsSet#表达方式">集合的表达方式</a>。</li>
+</ul>
+<h2 id="判断函数是否相同"><a href="#判断函数是否相同" class="headerlink" title="判断函数是否相同"></a>判断函数是否相同</h2><ul>
+<li>必要条件：<strong>定义域</strong>与<strong>对应法则</strong>（求$y$的解析式）完全相同。</li>
+</ul>
+<blockquote>
+<p>定义域可以有多种<strong>等价</strong>的表达方式。</p>
+</blockquote>
+<h2 id="反函数"><a href="#反函数" class="headerlink" title="反函数"></a>反函数</h2><ul>
+<li><p>设$y = f(x)$的<strong>定义域</strong>为$D_f$，<strong>值域</strong>为$R_f$</p>
+<ul>
+<li>如果$R_f$内的<strong>任意一个数</strong>$y$，根据$x = f(y)$都有<strong>唯一确定的数</strong>$x ∈ D$ 与之对应<ul>
+<li>那么以$R_f$作为定义域的函数$x = f(y)$，便是$y = f(x)$的反函数。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>只有一一对应的函数才有反函数。</p>
+<ul>
+<li>如：$y = x^2$没有反函数</li>
+<li>如：$y = x^2, x ≥ 0$时的反函数为$y = \sqrt x$</li>
+</ul>
+</li>
+</ul>
+<h3 id="如何求反函数"><a href="#如何求反函数" class="headerlink" title="如何求反函数"></a>如何求反函数</h3><p>求反函数，只要得出以$y$表示的$x$，然后将$xy$互换即可。</p>
+<ul>
+<li>举例：$y = x^2 + 1, x ≥ 0$，那么$x = \sqrt {y - 1}$，即$y = \sqrt {x - 1}$。</li>
+</ul>
+<p><img src="/assets/WhatIsFunction/inverse.jpg" alt="反函数图像"></p>
+<h2 id="特殊函数"><a href="#特殊函数" class="headerlink" title="特殊函数"></a>特殊函数</h2><ul>
+<li>分段函数<ul>
+<li>在<strong>定义域内不同的区间</strong>上对应法则用<strong>不同的解析式</strong>表示的函数。</li>
+</ul>
+</li>
+</ul>
+<p>$$<br>f(x)= \begin{cases}<br>0 &amp; -1 &lt; x ≤ 0\<br>x^2 &amp; 0 &lt; x ≤ 1\<br>3-x &amp; 1 &lt; x ≤ 2\<br>\end{cases}<br>$$</p>
+<ul>
+<li><p>隐函数</p>
+<ul>
+<li>Todo.</li>
+</ul>
+</li>
+<li><p>参数方程确定的函数</p>
+<ul>
+<li>Todo.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>隐函数、参数方程确定的函数，会用于考察求导。</li>
+</ul>
+</blockquote>
+</div><div class="article-tags size-small mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E5%87%BD%E6%95%B0/">函数</a></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><div class="social-share"></div><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button is-info donate"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/img/alipay.png" alt="支付宝"></span></a><a class="button is-success donate"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/img/wechat.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/07/27/MathCommonSymbol/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">数学常见符号意义</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/07/26/BasicStructureForEnglishSentense/"><span class="level-item">英语句子的基本结构</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+            id: 'a3796890f37e46a8d98abf448fe9904e',
+            repo: 'BlogComments',
+            owner: 'HsOjo',
+            clientID: '8ca722009306a076cf0b',
+            clientSecret: 'c0e2a38d046ec543438087b28005f892c47c4877',
+            admin: ["HsOjo"],
+            createIssueManually: false,
+            distractionFreeMode: false,
+            perPage: 10,
+            pagerDirection: 'last',
+            
+            
+            enableHotKey: true
+        })
+        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/myavatar.png" alt="HsOjo"></figure><p class="title is-size-4 is-block line-height-inherit">HsOjo</p><p class="is-size-6 is-block">Good good study, Day day up.</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">11</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">4</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="http://blog.hsojo.com" target="_blank" rel="noopener">关注我</a></div></div></div><!--!--><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/categories/%E6%95%B0%E5%AD%A6/"><span class="level-start"><span class="level-item">数学</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E8%8B%B1%E8%AF%AD/"><span class="level-start"><span class="level-item">英语</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/%E5%87%BD%E6%95%B0/"><span class="tag">函数</span><span class="tag is-grey-lightest">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%89%8D%E7%BD%AE/"><span class="tag">前置</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8F%A5%E5%AD%90%E7%9A%84%E6%88%90%E5%88%86/"><span class="tag">句子的成分</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%AE%80%E5%8D%95%E5%8F%A5/"><span class="tag">简单句</span><span class="tag is-grey-lightest">5</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content size-small"><p><time dateTime="2020-07-29T04:19:44.000Z">2020-07-29</time></p><p class="title is-6"><a class="link-muted" href="/2020/07/29/FunctionCommonImage/">函数常见图像</a></p><p class="is-uppercase"><a class="link-muted" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></p></div></article><article class="media"><div class="media-content size-small"><p><time dateTime="2020-07-29T00:21:14.000Z">2020-07-29</time></p><p class="title is-6"><a class="link-muted" href="/2020/07/29/PropertiesOfFunction/">函数的基本性质</a></p><p class="is-uppercase"><a class="link-muted" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></p></div></article><article class="media"><div class="media-content size-small"><p><time dateTime="2020-07-28T00:54:34.000Z">2020-07-28</time></p><p class="title is-6"><a class="link-muted" href="/2020/07/28/ElementsOfSentense/">句子的成分（重要）</a></p><p class="is-uppercase"><a class="link-muted" href="/categories/%E8%8B%B1%E8%AF%AD/">英语</a></p></div></article><article class="media"><div class="media-content size-small"><p><time dateTime="2020-07-27T20:12:02.000Z">2020-07-28</time></p><p class="title is-6"><a class="link-muted" href="/2020/07/28/ElementsOfSentense2/">句子的成分——主语</a></p><p class="is-uppercase"><a class="link-muted" href="/categories/%E8%8B%B1%E8%AF%AD/">英语</a></p></div></article><article class="media"><div class="media-content size-small"><p><time dateTime="2020-07-27T18:38:30.000Z">2020-07-28</time></p><p class="title is-6"><a class="link-muted" href="/2020/07/28/ElementsOfSentense1/">句子的成分——谓语</a></p><p class="is-uppercase"><a class="link-muted" href="/categories/%E8%8B%B1%E8%AF%AD/">英语</a></p></div></article></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/archives/2020/07/"><span class="level-start"><span class="level-item">七月 2020</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/favicon.png" alt="HsOjo&#039;s Study Blog" height="28"></a><p class="size-small"><span>&copy; 2020 HsOjo</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            site: {
+                url: 'http://study.blog.hsojo.com',
+                external_link: {"enable":true,"exclude":[]}
+            },
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
